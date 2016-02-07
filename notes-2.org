@@ -1,0 +1,60 @@
+* How to work with JavaScript - DAY 2
+
+** TODO Node.js  
+ - https://nodejs.org/api/repl.html
+
+** TODO Babel
+- https://babeljs.io/
+
+** TODO Reactive functional programming
+- UI regeneration on app state change   
+- http://reactivex.io/learnrx/
+- http://www.gigamonkeys.com/book/
+** TODO Flux
+   1. UI -> 
+   2. UI interaction -> 
+   3. User intent -> 
+   4. (async / sync) Message -> 
+   5. [App state update] -> 
+   6. (go back to step 1) 
+
+** TODO Category theory and jQuery
+   https://jscategory.wordpress.com/
+   http://johnbender.us/2012/02/29/faster-javascript-through-category-theory/
+
+** TODO ES6
+** TODO JSX
+** TODO Linting
+** TODO Testing
+- https://theintern.github.io/
+** TODO Building
+** TODO Source maps
+** TODO Closure compiler
+** TODO LiveReload
+** TODO BrowserSync
+** TODO Tern
+** TODO Reactive Extensions
+** TODO Spacemacs, WebStorm, Sublime, Atom, VisualStudio Code
+    
+** TODO Advanced topics
+- TypeScript
+- ClojureScript
+- Elm
+** TODO Knowledge sources
+*** You Don't Know JavaScript
+*** JavaScript Allongé
+*** Exploring ES6
+*** Source code
+- jQuery.js
+- Lodash.js
+- React.js
+*** JavaScript The Right Way
+    http://jstherightway.org/
+
+*** Mozilla Developer Network
+    https://developer.mozilla.org/en-US/
+
+*** How Browser Work
+    http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+
+    

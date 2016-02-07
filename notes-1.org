@@ -1,0 +1,65 @@
+* How to work with JavaScript - DAY 1
+
+** DONE Initial questions
+- What's the most annoying thing with JS?
+  - Debug
+  - Kaos
+  - Callback hell
+  - "this & that"
+  - Prototypal vs Classical inheritance
+- What's the biggest mistake you did using JS?
+  - Async and scope and control flow mistakes / side effects isolation
+- What was the biggest surprise in JS you experienced?
+  - Inheritance wtf
+  - Function declaration vs function expression + hoisting
+** DONE Koans
+- https://github.com/liammclennan/JavaScript-Koans
+** DONE Truthiness
+- https://dorey.github.io/JavaScript-Equality-Table/
+** DONE Strict mode
+'use strict' prevents you from using 'with' keyword and other bad things. It changes the context of execution from 'window' to 'undefined'.
+** DONE Context
+With 'this' JS is looking for given name inside callsite (the place where given function has been invoked). Without 'this' it's searching the lexical scope. We can bind context to function, modify context of a function bound to existing context, use methods from one object on another object.
+** DONE Scoping
+- Lexical (functional scoping / compile time scoping / author time scoping) - not block scoping.
+- It's possible to cheat lexical scoping using eval.
+- Eval slows down the code (constant checking for variables existing in scope).
+** DONE Hoisting
+   Hoisting is not a real thing - it's only a mental model. JS interpreter scans code for variable declarations and function expressions. Each variable is initialized with value `undefined` and has it until first assignment.
+
+** DONE Closures
+    A closure is a lambda expression paired with an environment that binds each of its free variables to a value.
+    Closure is a function which has reference to a variable from the outer scope which otherwise would not exist because its function has ended its execution.
+
+** DONE Objects
+- Prototypal inheritance
+- Own property
+- Prototype chain
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
+- http://blog.brianhartsock.com/2007/03/08/breaking-instanceof-in-javascript/
+** DONE DOM
+- Memory leaks in DOM
+- window
+** DONE Functions
+- Function declaration
+- Function expression
+- Pure functions
+- Higher order functions
+- Side effects isolation
+ 
+** TODO Promises
+- https://github.com/caolan/async
+- https://github.com/kriskowal/q
+ 
+** DONE Design patterns
+- https://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript
+- http://www.dofactory.com/javascript/design-patterns
+- https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know
+** TODO Questions to answer
+- Moduły
+- Testy jednostkowe
+- Obiektowość, dziedziczenie
+- Statyczna analiza kodu
+- this
+- programowanie funkcyjne
+- Jak zarządzać kodem w aplikacji mieszanej (PHP + JS)

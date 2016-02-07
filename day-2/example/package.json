@@ -1,0 +1,12 @@
+{
+  "name": "day-2",
+  "version": "0.1.0",
+  "description": "Sample project",
+  "scripts": {
+    "postinstall": "(cd server; npm install) ; (cd client; npm install)",
+    "start-server": "(cd server; npm start)",
+    "start-client": "(cd client; npm start)"
+  },
+  "author": "Bartosz Cytrowski",
+  "license": "ISC"
+}
